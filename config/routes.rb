@@ -3,11 +3,6 @@ Rails.application.routes.draw do
   resources :cocktails do
     resources :doses, only: [:new, :create]
   end
-  resources :plants, only: :destroy
-end
-
-Rails.application.routes.draw do
-  root to: 'articles#index'
-  resources :articles, except: :index
+  resources :doses, only: :destroy
 end
 

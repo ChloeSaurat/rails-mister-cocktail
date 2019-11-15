@@ -3,15 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .container {
   justify-content: center;
-  background-color: #00334e;
-  color: white;
+  background-color: #badfdb;
+  color: #105e62;
+  width: 100%;
+}
+
+.background {
+  background-color: #105e62;
 }
 
 
 .navbar {
-  background-color: white;
+  color: #badfdb;
   display: flex;
   justify-content: center;
-
+  background-color: #105e62;
 }
 
