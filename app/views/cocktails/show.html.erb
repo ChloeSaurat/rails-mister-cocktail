@@ -4,21 +4,20 @@
 <div class="navbar">
     <h1><%= @cocktail.name %></h1>
 </div>
-<%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
 <div class= "background" >
-  <div class= "container">
+  <div class= "container-show">
+<%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
   <h1>Ingredients</h1>
   <% @cocktail.doses.each do |dose| %>
     <li class="list-dose">
-      <p><%= dose.description %></p>
-      <p><%= dose.ingredient.name %></p>
+      <%= dose.description %> <%= dose.ingredient.name %>
     </li>
-    <%= link_to "Delete a dose", dose_path(dose),  method: :delete, data: {confirm: "Are you sure?"}%>
+    <%= link_to "Delete a dose", dose_path(dose),  method: :delete, data: {confirm: "Are you sure?"}, class:"my_btn" %>
   <% end %>
   </div>
 </div>
 
-<%= link_to "Add a dose", new_cocktail_dose_path(@cocktail) %>
+<%= link_to "Add a dose", new_cocktail_dose_path(@cocktail), class:"my_btn"%>
 
-<%= link_to "See all cocktails", cocktails_path %>
+<%= link_to "See all cocktails", cocktails_path, class:"my_btn" %>
 

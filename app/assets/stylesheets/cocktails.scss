@@ -1,22 +1,45 @@
 // Place all the styles related to the Cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.container {
+.cocktails-container {
   justify-content: center;
-  background-color: #badfdb;
-  color: #105e62;
-  width: 100%;
+  background-color: #ffebd3;
+  color: #264e70;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.container h1 {
+  padding-top: 35px;
 }
 
 .background {
-  background-color: #105e62;
+  background-color: rgb(255, 180, 172);
+  height: 100vh;
 }
-
 
 .navbar {
-  color: #badfdb;
+  color: #264e70;
   display: flex;
   justify-content: center;
-  background-color: #105e62;
+  background-color: #ffb4ac;
+  text-align: center;
+  height: 100px;
+  margin-bottom: 30px;
 }
+
+.footer {
+  background: rgb(255, 180, 172);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  a{
+    color: #264e70;
+  }
+}
+
 
