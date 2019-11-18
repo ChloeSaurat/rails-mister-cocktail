@@ -2,15 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .container-show {
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   background-color: #ffebd3;
   color: #264e70;
   width: 90%;
   margin: auto;
   text-align: center;
-  height: 100vh;
+  height: 50%;
+  display: flex;
 
   h1 {
   color: #264e70;
   }
 }
+
