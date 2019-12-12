@@ -4,16 +4,43 @@
 .container-show {
   justify-content: space-between;
   align-items: center;
-  background-color: #ffebd3;
+  background-color: white;
   color: #264e70;
-  width: 90%;
+  width: 70%;
   margin: auto;
   text-align: center;
-  height: 50%;
+  height: 70%;
   display: flex;
+  border-radius: 10px;
+  border: 0.3px solid #004445;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 
-  h1 {
-  color: #264e70;
-  }
+    h1 {
+    color: #264e70;
+    }
 }
 
+.content-ingredients {
+  margin: 0;
+}
+
+.background-show {
+  background-color: white;
+  height: 100vh;
+}
+
+.content-cocktail-title {
+  background-color: white;
+  color: #414141;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.bot_btn {
+  justify-content: center;
+  margin-top: 16px;
+  margin-left: 210px;
+  font-size: 24px;
+}

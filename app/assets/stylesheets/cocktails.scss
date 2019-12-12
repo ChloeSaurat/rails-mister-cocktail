@@ -3,41 +3,25 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .cocktails-container {
   justify-content: center;
-  background-color: #ffebd3;
-  color: #264e70;
+  background-color: white;
+  color: #414141;
   width: 90%;
   margin: auto;
   text-align: center;
   height: 100vh;
+  border-radius: 8px;
 }
 
-.container h1 {
+.content-title {
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .background {
-  background-color: rgb(255, 180, 172);
+  background-color: #004445;
   height: 100vh;
 }
 
-.navbar {
-  color: #264e70;
-  display: flex;
-  justify-content: center;
-  background-color: #ffb4ac;
-  text-align: center;
-  height: 100px;
-}
 
-.footer {
-  background: rgb(255, 180, 172);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  a{
-    color: #264e70;
-  }
-}
 
 
